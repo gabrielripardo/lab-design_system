@@ -14,17 +14,23 @@ module.exports = {
     },
 
     colors: {
-      'gray-900': '#121214',
-      'gray-800': '#202024',
-      'gray-400': '#7C7C8A',
-      'gray-200': '#c4c4cc',
-      'gray-100': '#E1E1E6',
-      'gray-0': '#fff',
+      transparent: 'transparent',
+      black: '#000',
+      white: '#fff',      
 
-      'black': '#000',
+      gray: {
+        900: '#121214',
+        800: '#202024',
+        400: '#7C7C8A',
+        200: '#c4c4cc',
+        100: '#E1E1E6',        
+      },
 
-      'cyan-300': '#81D8F7',
-      'cyan-500': '#61DAFB'
+      cyan: {
+        300: '#81D8F7',
+        500: '#61DAFB'
+      },
+
     },
 
     extend: {
